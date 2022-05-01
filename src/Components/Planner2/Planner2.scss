@@ -1,0 +1,71 @@
+.ProgressBarBox{
+    display: flex;
+    border: 1px solid black;
+    background-color: grey;
+    grid-template: 1fr;
+    width: 100%;
+    height: 5px;
+    margin: 10px 0px;
+    align-self: center;
+}
+
+.ProgressBarUnit{
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.individualTaskBox{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   justify-content: space-between;
+}
+.editAndCloseBox{
+    display: flex;
+    gap: 10px;
+    width: 30%;
+   justify-content: end;
+}
+
+.High{
+    background-color: red;
+    opacity: 0.5;
+    width: 100%;    
+}
+.Medium{
+    background-color: yellow;
+    opacity: 0.5;
+    width: 100%;
+}
+.Low{
+    background-color: lightgreen;
+    opacity: 0.5;
+    width: 100%;    
+}
+
+.planner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.bottom-buttons{
+    display: flex;
+    justify-self: flex-end;
+    margin-top: 10px;
+}
+
+.prio-buttons{
+    margin-top: 10px;
+}
+
+.bottom-button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

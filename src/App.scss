@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.newtask{
+  border: 1px solid black;
+  width: fit-content;
+  min-width: 75px;
+  max-width: 200px;
+}
+.isDone{
+  text-decoration: line-through;
+}
+
+.container{
+  width: 100%;
+  width: fit-content;
+  margin: 30px;
+  border: 2px solid black;
+}
